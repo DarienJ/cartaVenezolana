@@ -1,0 +1,75 @@
+body {
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: black;
+}
+
+center {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  background-color: wheat;
+}
+
+.content {
+  background-color: wheat;
+}
+
+.content h1 {
+  background-color: orange;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 40%;
+  color: white;
+}
+
+.content h2 {
+  background-color: orange;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 60%;
+  color: white;
+}
+
+.content img {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+}
+
+.food {
+  width: 90%;
+  background-color: white;
+  border-radius: 20px;
+  border-style: none;
+  border-color: orange;
+  border-width: 5px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-top {
+  padding: 5px 5px 0px 5px;
+  border-radius: 20px 20px 0px 0px;
+  border-style: none;
+  background-color: orange;
+}
+
+.text-buttom {
+  padding: 5px 5px 0px 5px;
+  border-radius: 0px 0px 20px 20px;
+  border-style: none;
+  background-color: orange;
+}
+
+.buttom {
+  background-color: orange;
+  color: white;
+}
